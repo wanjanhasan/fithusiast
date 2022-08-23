@@ -1,0 +1,12 @@
+export {default as Activitytracker} from './activitytracker/Activitytracker'
+export {default as Article} from './article/Article'
+export {default as Diet} from './diet/Diet'
+export {default as Groups} from './groups/Groups'
+export {default as Login} from './login/Login'
+export {default as Signup} from './signup/Signup'
+export {default as Workoutplans} from './workoutplans/Workoutplans'
+export {default as MuscleBuild} from './workoutplans/MuscleBuilding'
+export {default as LoseWeight} from './workoutplans/LoseWeight'
+export {default as Beginner} from './workoutplans/Beginner'
+export {default as Advanced} from './workoutplans/Advanced'
+
