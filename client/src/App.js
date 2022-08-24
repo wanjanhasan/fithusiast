@@ -27,7 +27,7 @@ const App = () => {
             <Route path='/diet' element={<><UserNav/><Diet /></>}/>
             <Route path='/groups' element={<><UserNav/><Groups /></>}/>
             <Route path='/plans/musclebuild' element={<><UserNav/><MuscleBuild /></>}/>
-            <Route path='/plans/beginner' element={<Beginner />}/>
+            <Route path='/plans/beginner' element={<><UserNav/><Beginner /></>}/>
             <Route path='/plans/weightloss' element={<><UserNav/><LoseWeight /></>}/>
             <Route path='/plans/advanced' element={<><UserNav/><Advanced /></>}/>
 

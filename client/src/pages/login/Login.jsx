@@ -22,7 +22,8 @@ const Login=() => {
 
     const login = () => {
         axios.post("http://localhost:9002/login", user)
-        .then(res => alert(res.data.message))
+        .then(res => console.log(res))
+        
         
 
     }

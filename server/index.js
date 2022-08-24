@@ -100,6 +100,16 @@ app.post('/articles', (req, res)=> {
 })
 
 
+//fetching items
+
+app.get('/articles', (req, res, next)=>{
+    res.status(200).json({
+        message:'Hi!!' 
+    })
+
+})
+
+
 app.listen(port, () => {
     console.log('Server started at', port)
 })
